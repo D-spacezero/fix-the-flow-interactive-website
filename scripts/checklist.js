@@ -17,6 +17,5 @@ var button = document.getElementById("bediening-toggle");
 var element = document.getElementById("bediening");
 
 button.addEventListener("click", function() {
-  // Toggle the class "active" on the element
   element.classList.toggle("checklist-active-cat");
 });
