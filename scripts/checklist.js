@@ -13,7 +13,7 @@ function showQuestion(questionNum) {
   question.style.display = "block";
 }
 
-/*----Toggle border sidebar-------*/
+/*----Toggle border / side menu-------*/
 
 /* afbeeldingen */
 
