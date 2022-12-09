@@ -1,25 +1,7 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+![image](https://user-images.githubusercontent.com/112856412/195784019-a92b5a86-142b-4c4d-b4da-4c5cffdcc1b9.png)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+De Vervoerregio Amsterdam verbindt gemeenten en werkt aan een regio waar mensen vlot hun bestemming bereiken.
 
-## User Story
-<!-- Schrijf de user story waar je aan hebt gewerkt  -->
+De Vervoerregio is opdrachtgever van het openbaar vervoer per bus, tram en metro. Hiervoor verlenen we concessies aan vervoerbedrijven en subsidie voor de exploitatie van het openbaar vervoer. Ook investeren we in nieuwe trams en metro’s.
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
-
-
-
-## Licentie
-
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
-
-This work is licensed under [GNU GPLv3](./LICENSE).
+Aan ons studenten van de opleiding FDND is de taak de huidige website toegankelijker te maken voor iedereen. En daar blijft het niet bij, ook willen ze graag informatie bieden aan andere partijen en bedrijven die op hun beurt hun eigen site willen verbeteren. Zou bouwen we samen naar websites die voor iedereen (beter) toegangelijk zijn.

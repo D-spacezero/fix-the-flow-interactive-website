@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html id="test" lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vervoerregio Amsterdam</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/checklist.css">
+
+</head>
+
+<body>
+    <header class="sticky main">
+        <section class="header-logo">
+            <a href="index.html">
+                <img src="assets/vervoerregio-amsterdam-logo.svg" height="auto" width="250px" alt="hero-logo">
+            </a>
+        </section>
+        <section class="header-wat-gebeurt-er">
+            <h5>Wat gebeurt er?</h5>
+        </section>
+        <section class="header-wat-doen-wij">
+            <h5>Wat doen wij?</h5>
+        </section>
+        <section class="header-wie-zijn-wij">
+            <h5>Wie zijn wij?</h5>
+        </section>
+        <section class="zoekbalk">
+            <input id="zoekbalk" type="text" placeholder="Zoeken">
+        </section>
+        
+    </header>
+
+    <section class="checklist">
+        <section class="checklist-left">
+            <div class="checklist-active-cat">Afbeeldingen</div>
+            <div>Bediening</div>
+            <div>Formulieren</div>
+            <div>Media</div>
+            <div>Navigatie</div>
+            <div>Resulaten</div>
+
+
+        </section>
+        <section class="checklist-right">
+            <!--<h3>Progress Bar</h3>-->
+            <div class="progress-bar">
+                <div class="progress-bar-fill" id="progress-bar-fill"></div>
+            </div>
+            <br>
+            <div class="checklist-box">
+                <form id="question-1" style="display:block;">
+                <label>
+                    <h1>Onderwerp eis 1</h1>
+                    <p> Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd. Voorleessoftware kan een 
+                        tekst omzetten in spraak (auditief) en een
+                        brailleleesregel kan het vertalen naar braille 
+                        (tactiel). Zo worden afbeelding ook toegankelijk voor 
+                        bezoekers die de afbeelding niet kunnen waarnemen
+                        Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd.
+                        </p>
+                </label><br>
+                <div class="input-buttons">
+                <input type="button" name="answer" value="yes" onclick="updateProgressBar(33.33); hideQuestion(1); showQuestion(2);">
+                <input type="button" name="answer" value="no" onclick="updateProgressBar(33.33); hideQuestion(1); showQuestion(2);"><br>
+                </div>
+                </form>
+            <form id="question-2" style="display:none;">
+                <label>
+                    <h1>Onderwerp eis 2</h1>
+                    <p> Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd. Voorleessoftware kan een 
+                        tekst omzetten in spraak (auditief) en een
+                        brailleleesregel kan het vertalen naar braille 
+                        (tactiel). Zo worden afbeelding ook toegankelijk voor 
+                        bezoekers die de afbeelding niet kunnen waarnemen
+                        Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd.
+                        </p>
+                </label><br>
+                <div class="input-buttons">
+                <input type="button" name="answer" value="yes" onclick="updateProgressBar(66.66); hideQuestion(2); showQuestion(3);">
+                <input type="button" name="answer" value="no" onclick="updateProgressBar(66.66); hideQuestion(2); showQuestion(3);"><br>
+                </div>
+            </form>
+            <form id="question-3" style="display:none;">
+                <label>
+                    <h1>Onderwerp eis 3</h1>
+                    <p> Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd. Voorleessoftware kan een 
+                        tekst omzetten in spraak (auditief) en een
+                        brailleleesregel kan het vertalen naar braille 
+                        (tactiel). Zo worden afbeelding ook toegankelijk voor 
+                        bezoekers die de afbeelding niet kunnen waarnemen
+                        Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd.
+                        </p>
+                </label><br>
+                <div class="input-buttons">
+                <input type="button" name="answer" value="yes" onclick="updateProgressBar(100); hideQuestion(3); showQuestion(4);">
+                <input type="button" name="answer" value="no" onclick="updateProgressBar(100); hideQuestion(3); showQuestion(4);"><br>
+                </div>
+            </form>
+            <form id="question-4" style="display:none;">
+                <label>
+                    <h1>Onderwerp eis 4</h1>
+                    <p> Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd. Voorleessoftware kan een 
+                        tekst omzetten in spraak (auditief) en een
+                        brailleleesregel kan het vertalen naar braille 
+                        (tactiel). Zo worden afbeelding ook toegankelijk voor 
+                        bezoekers die de afbeelding niet kunnen waarnemen
+                        Content van een website dat niet uit tekst bestaat, 
+                        zoals foto’s, icoontjes en andere afbeeldingen, kan 
+                        toegankelijk worden gemaakt door deze ook als 
+                        tekst beschikbaar te maken. Tekst kan namelijk door 
+                        hulptechnologieën op verschillende manieren 
+                        worden gepresenteerd.
+                        </p>
+                </label><br>
+                <div class="input-buttons">
+                <input type="button" name="answer" value="yes" onclick="updateProgressBar(100); hideQuestion(4);">
+                <input type="button" name="answer" value="no" onclick="updateProgressBar(100); hideQuestion(4);"><br>
+                </div>
+            </form>
+            </div>
+        </section>
+        
+    </section>
+    
+    
+    <footer>
+        <div class="footer-blok-1">
+            <h4>Contact informatie</h4><br>
+            <h4>Vervoerregio Amsterdam</h4>
+            <h4>info@vervoerregio.nl</h4>
+            <h4>Jodenbreestraat 25, 1011 NH</h4>
+            <h4>Tel: 020-5273700</h4>
+        </div>
+
+        <div class="footer-blok-2">
+            <h4>Navigatie</h4><br>         
+            <h4>Wat gebeurt er?</h4>
+            <h4>Wat doen wij?</h4>
+            <h4>Wie zijn wij?</h4>
+        </div>
+
+        <div class="footer-blok-3">
+            <h4>Socials</h4><br>           
+            <h4>Facebook</h4>
+            <h4>Linkedin</h4>
+            <h4>Instagram</h4>
+        </div>
+
+        <div class="footer-blok-4">
+            <h4>Documenten</h4><br>            
+            <h4>Aanmelden Nieuwsbrief</h4>
+            <h4>Privacy Statement</h4>
+        </div>
+    </footer>
+        
+</body>
+
+</html>
+
+<script src="./scripts/index.js"></script>
+<script src="./scripts/checklist.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://rawgit.com/jquery/jquery-mousewheel/master/jquery.mousewheel.js"></script>

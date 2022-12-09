@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html id="test" lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vervoerregio Amsterdam</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <header class="sticky main">
+        <section class="header-logo">
+            <a href="index.html">
+                <img src="assets/vervoerregio-amsterdam-logo.svg" height="auto" width="250px" alt="hero-logo">
+            </a>
+        </section>
+        <section class="header-wat-gebeurt-er">
+            <h5>Wat gebeurt er?</h5>
+        </section>
+        <section class="header-wat-doen-wij">
+            <h5>Wat doen wij?</h5>
+        </section>
+        <section class="header-wie-zijn-wij">
+            <h5>Wie zijn wij?</h5>
+        </section>
+        <section class="zoekbalk">
+            <input id="zoekbalk" type="text" placeholder="Zoeken">
+        </section>
+        
+        <!--<section class="header-logo">
+            <a href="index.html">
+                <img src="assets/vervoerregio-amsterdam-logo.svg" height="auto" width="250px" alt="vervoerregio-amsterdam-logo">
+            </a>        
+        </section>
+        <section class="header-wat-gebeurt-er">
+            <h5>Wat gebeurt er?</h5>
+        </section>
+        <section class="header-wat-doen-wij">
+            <h5>Wat doen wij?</h5>
+        </section>
+        <section class="header-wie-zijn-wij">
+            <h5>Wie zijn wij?</h5>
+        </section>
+        <section class="burger-menu">
+            <img src="assets/burger-menu.svg" height="auto" width="50px" alt="menu">
+        </section>-->
+        
+    </header>
+
+    <section class="hero">
+        <section class="hero-text">
+            <p class="hero-text-1">Onze bijdragen</p>
+            <h1 class="hero-text-2">Toegankelijkheid website verbeteren</h1>
+            <p class="hero-text-3">Alle informatie die belangrijk is voor iedereen die 
+                bezig gaat met digitale toegankelijkheid. Vind de
+                onderwerpen waar je meer over wilt leren en weet 
+                deze toe te passen.
+            </p>
+            <a href="waarom.html">
+                <button class="hero-btn-1">Waarom nu?</button>
+            </a>
+            <button class="hero-btn-2">Verdere informatie</button>
+            
+        </section>
+
+        <section class="hero-svg">
+            <img src="assets/hero-svg.svg" height="auto" width="100%" aria-label="afbeelding-toegangelijkheid-op-het-web">
+        </section>
+    </section>
+    
+
+    <section class="kies-onderwerp-header">
+        <h2 class="kies-onderwerp-header-text">Kies een onderwerp waar je meer over wilt leren</h2>
+    </section>
+
+    <section class="option-wrapper">
+
+        
+        <section class="option-box o-afbeeldingen">
+            <a href="afbeeldingen.html">
+                <h3>Afbeeldingen</h3>
+            </a>
+        </section>
+        
+
+        <section class="option-box o-bediening">
+            <a href="bediening.html">
+                <h3>Bediening</h3>
+            </a>        
+        </section>
+
+        <section class="option-box o-formulieren">
+            <a href="formulieren.html">
+                <h3>Formulieren</h3>
+            </a>        
+        </section>
+
+        <section class="option-box o-media">
+            <a href="media.html">
+                <h3>Media</h3>
+            </a>        
+        </section>
+
+        <section class="option-box o-navigatie">
+            <a href="navigatie.html">
+                <h3>Navigatie</h3>
+            </a>        
+        </section>
+
+        <section class="option-box o-ontwerp">
+            <a href="ontwerp.html">
+                <h3>Ontwerp</h3>
+            </a>        
+        </section>
+
+        <section class="option-box o-teksten">
+            <a href="teksten.html">
+                <h3>Teksten</h3>
+            </a>        
+        </section>
+
+        <section class="option-box o-techniek">
+            <a href="techniek.html">
+                <h3>Techniek</h3>
+            </a>        
+        </section>
+
+        <section class="option-box o-vormgeving">
+            <a href="vormgeving.html">
+                <h3>Vormgeving</h3>
+            </a>        
+        </section>
+
+    </section>
+    
+    <footer>
+        <div class="footer-blok-1">
+            <h4>Contact informatie</h4><br>
+            <h4>Vervoerregio Amsterdam</h4>
+            <h4>info@vervoerregio.nl</h4>
+            <h4>Jodenbreestraat 25, 1011 NH</h4>
+            <h4>Tel: 020-5273700</h4>
+        </div>
+
+        <div class="footer-blok-2">
+            <h4>Navigatie</h4><br>         
+            <h4>Wat gebeurt er?</h4>
+            <h4>Wat doen wij?</h4>
+            <h4>Wie zijn wij?</h4>
+        </div>
+
+        <div class="footer-blok-3">
+            <h4>Socials</h4><br>           
+            <h4>Facebook</h4>
+            <h4>Linkedin</h4>
+            <h4>Instagram</h4>
+        </div>
+
+        <div class="footer-blok-4">
+            <h4>Documenten</h4><br>            
+            <h4>Aanmelden Nieuwsbrief</h4>
+            <h4>Privacy Statement</h4>
+        </div>
+    </footer>
+        
+</body>
+
+</html>
+
+<script src="./scripts/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://rawgit.com/jquery/jquery-mousewheel/master/jquery.mousewheel.js"></script>
