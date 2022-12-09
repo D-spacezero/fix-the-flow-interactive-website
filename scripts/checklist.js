@@ -13,6 +13,8 @@ function showQuestion(questionNum) {
   question.style.display = "block";
 }
 
+/*----Toggle border sidebar-------*/
+
 var button = document.getElementById("bediening-toggle-y");
 var element = document.getElementById("bediening");
 
