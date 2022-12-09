@@ -36,7 +36,7 @@
     <section class="checklist">
         <section class="checklist-left">
             <div class="checklist-active-cat">Afbeeldingen</div>
-            <div>Bediening</div>
+            <div id="bediening">Bediening</div>
             <div>Formulieren</div>
             <div>Media</div>
             <div>Navigatie</div>
@@ -156,8 +156,8 @@
                             </p>
                     </label><br>
                     <div class="input-buttons">
-                    <input type="button" name="answer" value="yes" onclick="updateProgressBar(0); hideQuestion(4); showQuestion(5);">
-                    <input type="button" name="answer" value="no" onclick="updateProgressBar(0); hideQuestion(4); showQuestion(5);"><br>
+                    <input type="button" id="bediening-toggle" name="answer" value="yes" onclick="updateProgressBar(0); hideQuestion(4); showQuestion(5);">
+                    <input type="button" id="bediening-toggle" name="answer" value="no" onclick="updateProgressBar(0); hideQuestion(4); showQuestion(5);"><br>
                     </div>
                 </form>
 
