@@ -17,19 +17,24 @@ function showQuestion(questionNum) {
 
 /* afbeeldingen */
 
+var elementAfbeeldingen = document.getElementById("afbeeldingen");
+
 var button = document.getElementById("bediening-toggle-y");
 var elementBediening = document.getElementById("bediening");
 
 
+
 button.addEventListener("click", function() {
-  elementBediening.classList.toggle("checklist-active-cat");
+  elementBediening.classList.toggle("checklist-active-cat")
+  elementAfbeeldingen.classList.toggle("finished");
 });
 
 var button = document.getElementById("bediening-toggle-n");
 var elementBediening = document.getElementById("bediening");
 
 button.addEventListener("click", function() {
-  elementBediening.classList.toggle("checklist-active-cat");
+  elementBediening.classList.toggle("checklist-active-cat")
+  elementAfbeeldingen.classList.toggle("finished");
 });
 
 /* formulieren */
@@ -39,12 +44,14 @@ var elementFormulieren = document.getElementById("formulieren");
 
 
 button.addEventListener("click", function() {
-  elementFormulieren.classList.toggle("checklist-active-cat");
+  elementFormulieren.classList.toggle("checklist-active-cat")
+  elementBediening.classList.toggle("finished");
 });
 
 var button = document.getElementById("formulieren-toggle-n");
 var elementFormulieren = document.getElementById("formulieren");
 
 button.addEventListener("click", function() {
-  elementFormulieren.classList.toggle("checklist-active-cat");
+  elementFormulieren.classList.toggle("checklist-active-cat")
+  elementBediening.classList.toggle("finished");
 });
