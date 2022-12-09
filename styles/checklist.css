@@ -40,7 +40,7 @@ width:2.18%;
 .checklist-left{
   grid-area: checklist-left;
   margin-top:14em;
-  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.04));
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.08));
 }
 
 @media only screen and (max-width: 1680px) {
@@ -116,6 +116,7 @@ width:2.18%;
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.04));
   background:white;  
   border-radius:30px;
+  border: 3px solid #FBFBFF;
   width:auto;
   height:530px;
   padding-top:3.3em;
