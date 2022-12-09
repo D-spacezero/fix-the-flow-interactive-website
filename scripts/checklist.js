@@ -13,7 +13,15 @@ function showQuestion(questionNum) {
   question.style.display = "block";
 }
 
-var button = document.getElementById("bediening-toggle");
+var button = document.getElementById("bediening-toggle-y");
+var element = document.getElementById("bediening");
+
+
+button.addEventListener("click", function() {
+  element.classList.toggle("checklist-active-cat");
+});
+
+var button = document.getElementById("bediening-toggle-n");
 var element = document.getElementById("bediening");
 
 button.addEventListener("click", function() {
