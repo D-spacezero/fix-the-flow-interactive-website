@@ -15,17 +15,36 @@ function showQuestion(questionNum) {
 
 /*----Toggle border sidebar-------*/
 
+/* afbeeldingen */
+
 var button = document.getElementById("bediening-toggle-y");
-var element = document.getElementById("bediening");
+var elementBediening = document.getElementById("bediening");
 
 
 button.addEventListener("click", function() {
-  element.classList.toggle("checklist-active-cat");
+  elementBediening.classList.toggle("checklist-active-cat");
 });
 
 var button = document.getElementById("bediening-toggle-n");
-var element = document.getElementById("bediening");
+var elementBediening = document.getElementById("bediening");
 
 button.addEventListener("click", function() {
-  element.classList.toggle("checklist-active-cat");
+  elementBediening.classList.toggle("checklist-active-cat");
+});
+
+/* formulieren */
+
+var button = document.getElementById("formulieren-toggle-y");
+var elementFormulieren = document.getElementById("formulieren");
+
+
+button.addEventListener("click", function() {
+  elementFormulieren.classList.toggle("checklist-active-cat");
+});
+
+var button = document.getElementById("formulieren-toggle-n");
+var elementFormulieren = document.getElementById("formulieren");
+
+button.addEventListener("click", function() {
+  elementFormulieren.classList.toggle("checklist-active-cat");
 });
