@@ -22,8 +22,6 @@ var elementAfbeeldingen = document.getElementById("afbeeldingen");
 var button = document.getElementById("bediening-toggle-y");
 var elementBediening = document.getElementById("bediening");
 
-
-
 button.addEventListener("click", function() {
   elementBediening.classList.toggle("checklist-active-cat")
   elementAfbeeldingen.classList.toggle("finished");
@@ -41,7 +39,6 @@ button.addEventListener("click", function() {
 
 var button = document.getElementById("formulieren-toggle-y");
 var elementFormulieren = document.getElementById("formulieren");
-
 
 button.addEventListener("click", function() {
   elementFormulieren.classList.toggle("checklist-active-cat")

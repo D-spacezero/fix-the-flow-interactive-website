@@ -169,14 +169,17 @@
 
   .header-wat-gebeurt-er {
     grid-area: header-wat-gebeurt-er;
+    text-align:center;
   }
 
   .header-wat-doen-wij {
     grid-area: header-wat-doen-wij;
+    text-align:center;
   }
 
   .header-wie-zijn-wij {
     grid-area: header-wie-zijn-wij;
+    text-align:center;
   }
 
   .zoekbalk{
